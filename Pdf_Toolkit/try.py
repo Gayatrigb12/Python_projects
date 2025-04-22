@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 def merge_pdfs():
-    output_dir = r"D:\PYTHON\Python_POC\Python_projects\Pdf_Merger\merged_files"
+    output_dir = r"D:\PYTHON\Python_POC\Python_projects\Pdf_Toolkit\merged_files"
     os.makedirs(output_dir, exist_ok=True)
 
     try:
@@ -43,7 +43,7 @@ def merge_pdfs():
 
 
 def slice_pdf():
-    output_dir = r"D:\PYTHON\Python_POC\Python_projects\Pdf_Merger\sliced_files"
+    output_dir = r"D:\PYTHON\Python_POC\Python_projects\Pdf_Toolkit\sliced_files"
     os.makedirs(output_dir, exist_ok=True)
 
     path = input("Enter the path of the PDF to slice: ").strip('"')
